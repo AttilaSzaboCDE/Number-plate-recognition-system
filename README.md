@@ -2,6 +2,8 @@
 
 **The project goal:** Create an application, where i can recognition the car plate and it has to decide this car has a valid highway sticker.
 
+For this project, I worked with my 2 friend.
+
 **Tech stack:**
 - Programming language: Python
 - Database: SQLite
