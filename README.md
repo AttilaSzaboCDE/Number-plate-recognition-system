@@ -1,40 +1,18 @@
-# PL2022A_01
-Projektmunka1 1-es csapat
+# Car number plate recognition system project
 
-Projekt téma:
-Matrica ellenőrző rendszer rendszámtábla alapján  
-=======
-Csapattagok:  
-Szabó Attila - JW9PZT  
-Kiss Bálint - BBZD5J  
-Zámbó Ádám Zoltán - QGRVR8     
-Szabó Patrik - HQKBEN    
+**The project goal:** Create an application, where i can recognition the car plate and it has to decide this car has a valid highway sticker.
+
+**Tech stack:**
+- Programming language: Python
+- Database: SQLite
+- Libraries: OpenCV
 
 
-2024.02.19 - Projektéma megbeszélése és megtervezése
-Itt a csapattagokkal megbeszéltük, hogy pontosabban mivel fogunk foglalkozni és eltervezzük, hogy ki melyik feladatot fogja csinálni.
+## Summary:
+The application working like when you start the app, you have to choose between two buttons. First button, you can select the video, and the second button is the settings. In Settings section you can add more car numbers and you can remove them.
+If you want to check which cars' numbers are in the database you can list them.
+After you selected the video, the app will open it and you will see the process how the app works.
+It has a green square if the car's plate in the database and it has a red square if the number isnt in it.
 
-2024.02.29 - Első konzultáció megtörtént
 
-2024.03.03 - Képfeldolgozás
-Megoldottuk, hogy egy videóból a framek-nél kisebb hibákkal, de felismerje a rendszámot többnyire.
-Itt már elkezdtünk ötletelni, hogy hogyan tovább.
-
-2024.03.09 - Képfeldolgozás fixálása + adatbázis megtervezése
-A képfeldolgozási metódusunkat sikeresen a lehető legpontosabban ismeri fel rajta a rendszámot és lett kifejlesztve
-rá egy eldöntendő elágazás, hogyha felismeri a kért rendszámot, arról képet készíten.
-
-2024.03.21 - Második konzultáció megtörtént
-
-2024.03.23 - Adatbázis elkészítése
-A képfeldolgozás már működik, viszont adatbázist is kellett nekünk készíteni, ahol a rendszámunk, a matrica érvényességi ideje is szerepel benne.
-Előtesztelési folyamatokban, sikeres teszteket végeztünk rajta.
-Itt már elkezdtük írni a dokumentációt róla.
-
-2024.03.30 - GUI létrehozása és tesztelése
-Létrehoztunk egy felhasználóbarát felületet, amelynél beállíthatjuk az adatbázisban szereplő rendszámokat, hozzáadhatunk és kitörölhetünk vele rendszámot, 
-valamint tallózhatjuk a a videót hozzá.
-
-2024.04.11 - Harmadik konzultáció megtörtént
-
-2024.04.25 - Negyedik konzultáció megtörtént
+## Pictures:
